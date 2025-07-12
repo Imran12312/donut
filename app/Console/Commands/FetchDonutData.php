@@ -73,7 +73,7 @@ class FetchDonutData extends Command
         $this->line("Saved donut: " . $donut->name);
     }
 
-    $this->info("✅ All data saved to database!");
+    $this->info("All data saved to database!");
 }
 
 }
